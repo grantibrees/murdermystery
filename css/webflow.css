@@ -48,11 +48,11 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: #fff;
+  /* background-color: #fff; */
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333;
+  /* color: #333; */
 }
 img {
   max-width: 100%;
@@ -135,7 +135,7 @@ html[data-w-dynpage] [data-w-cloak] {
   background-origin: padding-box;
   background-clip: border-box;
   background-attachment: scroll;
-  background-color: transparent;
+  /* background-color: transparent; */
   box-shadow: none;
   opacity: 1.0;
   transform: none;
@@ -174,7 +174,7 @@ html[data-w-dynpage] [data-w-cloak] {
   bottom: 12px !important;
   left: auto !important;
   color: #AAADB0 !important;
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
   border-radius: 3px !important;
   padding: 6px 8px 6px 6px !important;
   font-size: 12px !important;
@@ -289,6 +289,7 @@ ol {
   left: 0;
   width: 100%;
   height: 100%;
+  border: none;
 }
 fieldset {
   padding: 0;
@@ -333,7 +334,7 @@ label {
   line-height: 1.428571429;
   color: #333333;
   vertical-align: middle;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 1px solid #cccccc;
 }
 .w-input:-moz-placeholder,
@@ -365,14 +366,14 @@ label {
 fieldset[disabled] .w-input,
 fieldset[disabled] .w-select {
   cursor: not-allowed;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
 }
 textarea.w-input,
 textarea.w-select {
   height: auto;
 }
 .w-select {
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
 }
 .w-select[multiple] {
   height: auto;
@@ -426,7 +427,7 @@ textarea.w-select {
 .w-file-upload-uploading,
 .w-file-upload-success {
   display: inline-block;
-  color: #333333;
+  /* color: #333333; */
 }
 .w-file-upload-error {
   display: block;
@@ -894,9 +895,6 @@ textarea.w-select {
 }
 .w-widget-twitter-count-shim.w--vertical.w--large {
   width: 76px;
-}
-.w-widget-gplus {
-  overflow: hidden;
 }
 .w-background-video {
   position: relative;
